@@ -1,0 +1,15 @@
+body {
+    background-color: violet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    color: #000;
+    font-size: 30px;
+}
+h2 {
+    color: #5c0707;
+    font-size: 20px;
+}
+p { 
+    font-size: 15px;
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body { background-color: tan;
+font-family: 'Courier New', Courier, monospace;
+}
+
+h1#principal {
+    background-color:lightcoral;
+    color:aliceblue;
+    text-align: center;
+
+}
+
+h1 {
+color:mediumvioletred;
+}
+
+h2 {
+font-family: Arial, Helvetica, sans-serif;
+color: lightcoral ;
+}
+
+h2.primeiro {
+    background-color: aliceblue;
+
+}
+h2.segundo {
+    background-color: grey;
+}

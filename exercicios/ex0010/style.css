@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+    /* height: 100%; */
+    font-family:monospace, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+body{
+    background-image: linear-gradient(to right,#BA8F95, #CAB6CD, #CFBCDF );
+}
+main {
+    background-color: aliceblue;
+    border-radius: 10px;
+box-shadow: 1px 1px 10px #919098;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1 {
+    color: #897C80;
+    text-align: center;
+    text-shadow: 1px 1px 10px #6b61648e;
+}
+h2 {
+    color: #919098;
+}
+p {
+    text-align: justify;
+}

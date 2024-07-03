@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+div {
+    display: inline-block;
+    background-color: hotpink;
+    border: 1px solid purple;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}
+
+div:hover {
+    background-color: purple;
+}

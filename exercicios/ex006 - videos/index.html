@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML 5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este videos está hospedado no meu proprio servidor</p>
+    <!-- desta forma o cliente consome dados do proprio servidor, gerando mais custos, prinvipalmente pela quantidade de extenções que colocamos para que seja compativel em todos navegadores -->
+ <video width="400" height="400" poster="imagens/capa.png" controls>
+ <source src="midias/meu video.mp4.mp4" type="video/mp4">
+ </video>
+ 
+    <h1>Inserindo vidos do Youtube</h1>
+<!-- desta forma acima o cliente não consome dados do proprio servidor, por ser um video já hospedado em outro local. -->
+ 
+<iframe width="400" height="200" control 
+src="https://www.youtube.com/embed/FdE5G95B7Mg?si=YPKtJx5q2r8BxSVT&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>
